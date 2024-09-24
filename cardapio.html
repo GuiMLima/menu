@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #0b0b08, #1e1101);
+        }
+
+        main {
+            background-image: url(./imagens/fundo2.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            width: 75%;
+            box-shadow: 3px 3px 3px black;
+        }
+            table {
+                margin: auto;
+                color: white;
+            }
+
+            .imagem {
+                border-top-left-radius: 50%;
+                border-bottom-left-radius: 50%;
+            }
+            
+
+
+            h1, th {
+                font-family: 'MorningStarboy';
+            }
+            th, td {
+                text-align: left;
+            }
+
+            td, th, td {
+                padding: 5px;
+            }
+
+            @font-face {
+                font-family: 'MorningStarboy';
+                src: url('./fontes/morning_starboy/Morning\ Starboy.otf') format('opentype');
+                font-weight: normal;
+            }
+    </style>
+</head>
+<body>
+    <main>
+    <header>
+        <h1 style="color: white;">Limas's Burguer</h1>
+    </header>
+    <article 
+        id="sample4" 
+        class="simple">
+            <table style=" border-top: solid rgb(183, 133, 76)">
+                <tr>
+                    <th colspan="3">Cardápio</th>
+                    <th>Preço</th>
+                </tr>
+                <tr style=" border-top: solid rgb(183, 133, 76)">
+                    <td 
+                    class="imagem" 
+                    style="background-image: 
+                    url(/rule/imagens/xTudoMaisFritas.png); 
+                    background-size: cover; 
+                    background-repeat: 
+                    no-repeat;
+                    width: 75px; 
+                    height: 75px;" 
+                    rowspan="3" 
+                    colspan="">
+                    </td>
+                    <th 
+                    colspan="2" 
+                    style="text-align: left;">Combo da Fome</th>
+                    <td class="preço" rowspan="3" >55,50</td>
+                </tr>
+                <tr>
+                    <td
+                    style="text-align: left;">X-tudo</td>
+                    <td>35,00</td>
+                </tr>
+                <tr>
+                    <td
+                    style="text-align: left;">Fritas médias</td>
+                    <td>20,50</td>
+                </tr>
+                <tr style="text-align: left;">
+                    <td 
+                    class="imagem"
+                    style="background-image: 
+                    url(/rule/imagens/ham-1-scaled.jpg); 
+                    background-size: cover; 
+                    background-repeat: no-repeat;" 
+                    rowspan="2"></td>
+                    <th colspan="2">X-tudo</th>
+                    <td rowspan="2">35,00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <p>2x Hamburgueres, tomate, salada, bacon, queijo e molho de alho.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td 
+                    rowspan="4"
+                    class="imagem"
+                    style="background-image: url(/rule/imagens/fritas.jpeg)
+                    ;
+                    background-size: cover;
+                    background-repeat: no-repeat;"></td>
+                    <th colspan="3">Fritas</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Fritas pequenas</td>
+                    <td>10,00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Fritas médias</td>
+                    <td>12,50</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Fritas grandes</td>
+                    <td>15,00</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: left;"> &copy; 2024. Todos os valores expressos em Reais.</td>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <audio autoplay loop src="/sons/Mirage melody - Patrick Patrikios.mp3">
+    </audio>
+</body>
+</html>
